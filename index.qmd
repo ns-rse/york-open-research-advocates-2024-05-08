@@ -1,11 +1,11 @@
 ---
-title: "Template Revealjs Quarto site"
+title: "How I Accidentally Started an Open Scholarship Community"
 # format: revealjs
 author:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
-    email: email@address.work
-    affiliations: Employers Name
+  - name: Neil Shephard
+    orcid: 0000-0001-8301-6857
+    email: n.shephard@sheffield.ac.uk
+    affiliations: The University of Sheffield
 from: markdown+emoji
 format:
   clean-revealjs:
@@ -18,7 +18,7 @@ format:
     # standalone: true
 revealjs-plugins:
   - confetti
-footer: "**Slides** : [**github-username.github.io/<repository>**](https://github-username.github.io/<repository>)"
+footer: "**Slides** : [**ns-rse.github.io/open-research-conversation-2023-11**](https://ns-rse.github.io/open-research-conversation-2023-11)"
 project:
   preview:
     port: 7864
@@ -28,37 +28,45 @@ project:
 
 ## Scan This!
 
-{{< qrcode https://ns-rse.github.io/quarto-revealjs-template qr1 width=400 height=400 >}}
+{{< qrcode https://ns-rse.github.io/open-research-conversation-2023-11 qr1 width=400 height=400 >}}
 
-[ns-rse.github.io/quarto-revealjs-template](https://ns-rse.github.io/quarto-revealjs-template)
+[ns-rse.github.io/open-research-conversation-2023-11](https://ns-rse.github.io/open-research-conversation-2023-11)
 
-## Quarto RevealJS Slides
+## Background
 
-This is a [Quarto](https://quarto.org/) template for creating [RevealJS](https://revealjs.com/) slides.
++ Genetic Epidemiologist 2000-2008
++ Cancer Registry Statistician 2008-2009
++ Medical Statistician (Clinical Trials) 2009-2018
++ Data Scientist 2018-2022
++ Research Software Engineer 2022-Present
 
-The template can be used as a starting point for your own slides and includes a number of different layouts and examples
-of Markdown syntax, slide layout, links, embedding images and configuration options.
+::: {.notes}
+Good afternoon, my name is Neil Shephard and I'm a Research Software Engineer in the Department of Computer Science at
+the University of Sheffield.
 
-## Formatting
+I've not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic
+Epidemiologist, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a
+stint as a Data Scientist before ending up here.
 
-Quarto slides are written in [Markdown](https://quarto.org/docs/authoring/markdown-basics.html).
+What relevance does my career have? Well early on in my first job I discovered literate programming a method of writing
+code for analysis and papers that made work reproducible and in realising that there is a different way of working from
+the traditional and pervasive word processor and spreadsheets and that it was not only more efficient, but also meant
+that it was easier to work in a reproducible and open manner which engendered a passion for Open Research that persists
+today.
 
-| Markdown Syntax                              | Output                                |
-|:---------------------------------------------|:--------------------------------------|
-| `*italics*`, `**bold**`, `***bolditalics***` | *italics*, **bold**, **bold italics** |
-| `superscript^1^`, `subscript~2~`             | superscript^1^, subscript~2~          |
-| `~~strikethrough~~`                          | ~~strikethrough~~                     |
-| ```code```                                   | `code`                                |
-| `[Quarto](https://quarto.org)`               | [Quarto](https://quarto.org)          |
+Now that I've explained very briefly how I came to be interested in Open Research I'm going to tell you a bit about how
+I accidentally started the Open Scholarship Community Sheffield.
+:::
+
+## Communities
+
 
 ::: {.notes}
 Speaker Notes can be added to each slide. **Formatting** can be used here too.
 :::
 
-## Columns and Lists
+## OSC Incubator Programme
 
-Slides can have columns and you can create [lists](https://quarto.org/docs/authoring/markdown-basics.html#lists) of
-different types.
 
 :::: {.columns}
 
@@ -86,247 +94,3 @@ different types.
 ::: {.notes}
 Slides can have columns and we can create unordered lists.
 :::
-
-## Columns and Lists (cont.)
-
-:::: {.columns}
-
-::: {.column width="50%"}
-**Ordered** (code)
-
-```markdown
-1. A comes before
-2. B which is followed by
-3. C
-```
-
-:::
-
-::: {.column width="50%"}
-**Ordered** (Rendered)
-
-1. A comes before
-2. B which is followed by
-3. C
-
-:::
-::::
-
-::: {.notes}
-Or ordered lists.
-:::
-
-## Tables
-
-You can manually add [tables](https://quarto.org/docs/authoring/markdown-basics.html#tables).
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-```markdown
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-```
-
-:::
-::: {.column width="50%"}
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-
-:::
-::::
-
-::: {.notes}
-Tables can be added, but there is a better way to include these programatically
-:::
-
-## Equations
-
-| Markdown Syntax                    | Output                       |
-|:----------------------------------:|:-----------------------------|
-| `inline math $E = mc^{2}$`         | inline math $E = mc^{2}$     |
-| ```display math: $$E = mc^{2}$$``` | display math: $$E = mc^{2}$$ |
-
-::: {.notes}
-You can write equations if you need to.
-:::
-
-## Embed Images
-
-[Figures](https://quarto.org/docs/authoring/figures.html) can be embeded using a URL and resized.
-
-```markdown
-![Relaxing in the mountains](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}
-```
-
-![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}
-
-::: {.notes}
-:::
-
-## Embed Images (*cont.*)
-
-You can also include images locally.^[Make sure to `git add` them otherwise they won't publish] and make them hyperlinks.
-
-```markdown
-![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}
-```
-
-![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}
-
-::: {.notes}
-:::
-
-## R code
-
-:::: {.columns}
-
-::: {.column width="50%"}
-Include [R code and output](https://quarto.org/docs/computations/r.html) with automatic referencing (see @fig-airquality2)
-
-```{r}
-#| label: fig-airquality
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-#| eval: false
-#| echo: true
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) +
-  geom_point() +
-  geom_smooth(method = "loess")
-```
-
-:::
-::: {.column width="50%"}
-
-```{r}
-#| label: fig-airquality2
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) +
-  geom_point() +
-  geom_smooth(method = "loess")
-```
-
-:::
-
-::::
-
-::: {.notes}
-[R](https://www.r-project.org/) code can be embeded and executed to produce tables and figures.
-:::
-
-## Python code
-
-::: {.column width="50%"}
-Include [Python code and output](https://quarto.org/docs/computations/python.html) too
-
-```{.python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis."
-#| warning: false
-#| eval: false
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-:::
-::: {.column width="50%"}
-
-```{.python}
-#| label: fig-polar2
-#| fig-cap: "A line plot on a polar axis."
-#| warning: false
-#| eval: true
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-:::
-::::
-
-::: {.notes}
-You can include [Python](https://www.python.org) code too
-:::
-
-## General code
-
-There are lots of options for showing, hiding, highlighting [code
-blocks](https://quarto.org/docs/presentations/revealjs/#code-blocks).
-
-```{.python code-line-numbers="6-8"}
-#| eval: true
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-## The Documentation is Good
-
-The official documentation is really good.
-
-+ [Get Started](https://quarto.org/docs/get-started/)
-+ [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
-+ [Guide](https://quarto.org/docs/guide/) with many sections on [Presentations](https://quarto.org/docs/presentations/)
-  [Website](https://quarto.org/docs/websites/), [Books](https://quarto.org/docs/books/) and more.
-
-## Extensions
-
-:::: {.columns}
-
-::: {.column width="50%"}
-[Extensions](https://quarto.org/docs/extensions/) for themes and other functionality
-(press `c` whilst viewing these slides :wink: ).
-
-+ [Shortcode/Filter](https://quarto.org/docs/extensions/listing-filters.html)
-+ [Journal Articles](https://quarto.org/docs/extensions/listing-journals.html)
-+ [Custom Formats](https://quarto.org/docs/extensions/listing-formats.html)
-+ [**RevealJS**](https://quarto.org/docs/extensions/listing-revealjs.html)
-
-:::
-::: {.column width=50%}
-{{< qrcode <https://ns-rse.github.io/quarto-revealjs-template> qr2 width=400 height=400 >}}
-:::
-::::
