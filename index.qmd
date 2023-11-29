@@ -103,8 +103,8 @@ members who interacted across the University.
 
 ::: {.notes}
 I was browsing through media feeds as I do and I came across the OSC Incubator Programme which was running in early
-March 2022 and thought this would be a useful way of finding out some ways to help grow the RSE community at The
-University of Sheffield.
+March 2022 and was advertised as a way of growing your community and I thought this would be a useful way of finding out
+some ways to help grow the RSE community at The University of Sheffield.
 
 I can be a bit slow at times and didn't think too much about the key word in the title "Incubator" but signed up.
 
@@ -116,24 +116,24 @@ So what did I let myself in for? Well thankfully its a really well structured co
 The International Open Science and Scholarship Community was established at University of Utrecht and has grown within
 the Netherlands with 12 local communities at different Universities throughout the Netherlands.
 
-The Incubator Programme aims to help grow the OSC community beyond The Netherlands, and the Incubator Programme runs
-over 14 weeks programme and takes people through setting up a local OSC Community.
+The Incubator Programme aims to help grow the OSC community beyond The Netherlands. The Incubator Programme runs
+over 14 weeks and takes people through setting up a local OSC Community.
 :::
 
 ## OSC Incubator Programme - Curriculum
 
-:::: {.columns}
-::: {.column width=50%}
+<!-- :::: {.columns} -->
+<!-- ::: {.column width=50%} -->
 1. Mission and Vision
 2. Member Recruitment
 3. Community Engagement
-:::
-::: {.column width="50%"}
+<!-- ::: -->
+<!-- ::: {.column width="50%"} -->
 4. Stakeholder Engagement
 5. Monitoring and Sustainability
 6. Open Session and Final Presentation
-:::
-::::
+<!-- ::: -->
+<!-- :::: -->
 
 ::: {.notes}
 This involves setting a Mission and Vision, how to go about Community Engagement and Recruiting Members, engaging with
@@ -194,7 +194,11 @@ develop and mature over time.
 > working practices such that the values, transparency and culture of Open Scholarship becomes the norm.
 
 :::{.notes}
-The Vision of OSC Sheffield states what we wish to be currently stands as.
+The Vision and Mission were curated but I don't currently have these up on the OSC Sheffield website but should probably
+get them on the landing page, but its a WordPress site that I haven't completely sussed out how to have a front page
+that isn't the most recent blog post.
+
+These aren't necessarily static and can evolve over time but currently the vision is...
 :::
 
 ## Mission
@@ -215,9 +219,6 @@ internally such as the Library, Open Research Working Group, Open Research Advis
 
 The aim is to have a broad membership not just from University of Sheffield but also Sheffield Hallam and beyond with
 regular events for people to attend, learn about and share their experience of Open Research.
-
-I don't currently have these up on the OSC Sheffield website but should probably get them on the landing page, but its a
-WordPress site that I haven't completely sussed out how to work just yet.
 :::
 
 ## Member Recruitment
@@ -239,12 +240,13 @@ WordPress site that I haven't completely sussed out how to work just yet.
 I've been quite fortunate in getting things going because the University of Sheffield already has structures in place
 and many active groups and individuals.
 
-At the top of the pyramid is the Open Research Advisory Group who set out how the national policies are to be
-implemented. At the bottom under pinning activities are IT Infrastructure and Library services.
+At the top of the pyramid is the Open Research Advisory Group who incentivise and set out how the national policies are
+to be implemented. At the bottom under pinning activities are IT Infrastructure and Library services.
 
-Already bridging the middle the pyramid of behaviour change is Jenni Adams and the Open Research Working Group as well
-as many other support staff who are actively engaged in undertaking and promoting Open Research here at the University
-and Jenni has been very supportive getting OSC Sheffield up and running and already organises a number of events.
+Already bridging the middle of the pyramid of behaviour change is Jenni Adams and the Open Research Working Group as
+well as many other support staff who are actively engaged in undertaking and promoting Open Research here at the
+University and Jenni has been very supportive getting OSC Sheffield up and running and already organises a number of
+events.
 :::
 
 ## Community Engagement - Existing Activities
@@ -255,10 +257,10 @@ and Jenni has been very supportive getting OSC Sheffield up and running and alre
 + RSE Lunchbytes.
 + OpenFest
 + FAIR Faculty Seminars
-+ How to Share Survey Data
++ [How to Share Data Series](https://www.sheffield.ac.uk/openresearch/events/how-share-seminar-series)
 :::
 ::: {.column width="50%"}
-+ Unleash your Data
++ [Unleash your Data](https://www.sheffield.ac.uk/library/research-data-management/unleash-your-data-2023-24)
 + ORWG Drop In-Sessions
 :::
 ::::
@@ -267,10 +269,20 @@ and Jenni has been very supportive getting OSC Sheffield up and running and alre
 Various events are already organised that help bring people together to talk about and share ideas around Open Research
 practices.
 
-There are the Open Research Conversation
+There are the Open Research Conversations, the RSE team have run regular Lunchbyte sessions which cover technical
+aspects of conducting research using programming tools and making software FAIR.
+
+Earlier this year saw the return of the successful Sheffield OpenFest which showcased and championed Open Research
+activities and the summer saw a series Faculty of Seminars on making data FAIR, Findable, Accessible, Interoperable and
+Reusable.
+
+This semester there has seen the first in a series of seminars on How to Share Survey Data led by Ric Campbell and the
+first in the series was __How to Share Survey Data_.
+
+
 :::
 
-## Community Engagement - OSC Sheffield
+## Community Engagement - New Activities
 
 :::: {.columns}
 ::: {.column width=50%}
@@ -296,8 +308,9 @@ meetings, one in October and one in November. These are events where people pres
 With Jim Uttley and Zuzanna Zagrodzka's who ran it previously we are also re-launching the
 [ReproducibiliTea](https://reproducibilitea.org/) Journal Club which aims to discuss diverse issues, papers and ideas
 about improving science, reproducibility and the Open Science movement and the first of those is scheduled for next week
-following the next Open Research Conversation. We'll be meeting in the Diamond and if you follow the links you can find
-out more about paper that will be presented.
+following the next Open Research Conversation. We'll be meeting in the Diamond next week to discuss a paper on
+reproducibility in the psychological sciences and if you follow the links you can find out more about paper that will be
+presented and how to attend either in person or online.
 :::
 
 
