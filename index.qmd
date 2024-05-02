@@ -18,7 +18,7 @@ format:
     # standalone: true
 revealjs-plugins:
   - confetti
-footer: "**Slides** : [**ns-rse.github.io/open-research-conversation-2023-11**](https://ns-rse.github.io/open-research-conversation-2023-11)"
+footer: "**Slides** : [**ns-rse.github.io/york-open-research-advocates-2024-05-08**](https://ns-rse.github.io/york-open-research-advocates-2024-05-08)"
 project:
   preview:
     port: 7864
@@ -30,15 +30,15 @@ project:
 
 :::: {.columns}
 ::: {.column width="50%"}
-{{< qrcode https://ns-rse.github.io/open-research-conversation-2023-11 qr1 width=400 height=400 >}}
-[ns-rse.github.io/open-research-conversation-2023-11](https://ns-rse.github.io/open-research-conversation-2023-11)
+{{< qrcode https://ns-rse.github.io/york-open-research-advocates-2024-05-08 qr1 width=400 height=400 >}}
+[ns-rse.github.io/york-open-research-advocates-2024-05-08](https://ns-rse.github.io/york-open-research-advocates-2024-05-08)
 :::
 ::: {.column width="50%"}
-![[osc-international.com/osc-sheffield](osc-international.com/osc-sheffield)](img/OSC_Sheffield.png)
+![[osc-international.com/osc-sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png)
 :::
 ::::
 ::: {.notes}
-Thank you Jenni,
+Thank you Ben,
 
 If anyone would like to view these slides you can scan this QR code or visit the link in the footer of every slide.
 :::
@@ -56,8 +56,8 @@ Good afternoon, my name is Neil Shephard and I'm a Research Software Engineer in
 the University of Sheffield.
 
 I've not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic
-Epidemiologist, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a
-stint as a Data Scientist before ending up here.
+Epidemiologist in Manchester, Perth Australia and back in Sheffield, then working at a Cancer Registry before nine years
+as a Medical Statistician in Clinical Trials and a stint as a Data Scientist before ending up here.
 
 What relevance does my career have? Well early on in my first job I discovered literate programming a method of writing
 code for analysis and papers that made work reproducible and realised that there is a different way of working from
@@ -71,7 +71,7 @@ Now that I've explained very briefly how I came to be interested in Open Researc
 I accidentally started the Open Scholarship Community Sheffield.
 :::
 
-## Open Scholarship Community Sheffield
+## Pre-Existing Community Sheffield
 
 
 :::: {.columns}
@@ -89,8 +89,12 @@ I accidentally started the Open Scholarship Community Sheffield.
 So I've had a long standing interest in open and reproducible research and have taken this extrapolated path to become a
 Research Software Engineer. The Research Software Engineering team and associated groups in the University such as IT
 Research Services and the Library have a small community, we interact regularly on various aspects of service provision
-and there is a Slack channel. And about a year ago I was tasked with growing the RSE community to improve engagement and
-members who interacted across the University.
+and there is a Slack channel. There is an Open Research group in the Library, with specialisation in licensing, data
+management and so forth and an Open Research Manager, my colleague Dr Jenni Adams. There is an Open Research Working
+Group of
+
+Just over two years ago I was tasked with growing the RSE community to improve engagement and members who interacted across
+the University.
 :::
 
 ## INOSC Incubator Programme
@@ -102,22 +106,22 @@ members who interacted across the University.
 
 
 ::: {.notes}
-I was browsing through media feeds as I do and I came across the OSC Incubator Programme which was running in early
+I was browsing through media feeds as I do came across the OSC Incubator Programme which was running in early
 March 2022 and was advertised as a way of growing your community and I thought this would be a useful way of finding out
 some ways to help grow the RSE community at The University of Sheffield.
 
 I can be a bit slow at times and didn't think too much about the key word in the title "Incubator" but signed up.
 
-In the very first session the penny dropped and I realised that I would be establishing a Open Science Community,
-which is where the "accidental" part of this short presentation comes from.
+In the very first session the penny dropped and I realised that I would be establishing an Open Science Community in
+Sheffield, which is where the "accidental" part of this short presentation comes from.
 
-So what did I let myself in for? Well thankfully its a really well structured course!
+So what did I let myself in for? Well thankfully it's a really well structured course!
 
 The International Open Science and Scholarship Community was established at University of Utrecht and has grown within
-the Netherlands with 12 local communities at different Universities throughout the Netherlands.
+the Netherlands with 12 local communities at different Universities throughout the Netherlands who collectively form a
+national network of communities.
 
-The Incubator Programme aims to help grow the OSC community beyond The Netherlands. The Incubator Programme runs
-over 14 weeks and takes people through setting up a local OSC Community.
+The Incubator Programme aims to help grow the OSC community beyond The Netherlands and runs over 14 weeks and takes people through setting up a local OSC Community.
 :::
 
 ## OSC Incubator Programme - Curriculum
@@ -163,7 +167,8 @@ vision, member recruitment and community engagement.
 
 :::{.notes}
 Being somewhat naive about the role communities play it was useful to find out how they fit in to effecting culture
-change and I really like this graphic which I think explains the role communities play well.
+change and I really like this graphic from a paper by Brian Nosek, one of the co-founders of the Open Science Framework,
+which I think explains the role communities play well.
 
 Infrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the
 Open Science Framework which allows researchers to register their studies, share materials, data and output at any point
@@ -173,9 +178,8 @@ But for this to be effective the user experience needs to be low friction to enc
 popular services integrate with each other and strive to make their tools accessible.
 
 From the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do
-within the system to gain recognition.
-
-This in turn defines the incentives that reward participants for participating in the system.
+within the system to gain recognition which in turn defines the incentives that reward participants for participating in
+the system.
 
 Whilst individuals can always go about changing their own behaviour, this can be challenging when the culture is
 to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of
@@ -188,66 +192,6 @@ practices, and importantly can feed up the pyramid to the top to influence and s
 develop and mature over time.
 :::
 
-## Vision
-
-> To be an inclusive, supportive, and active community for researchers to interact, share knowledge and encourage good
-> working practices such that the values, transparency and culture of Open Scholarship becomes the norm.
-
-:::{.notes}
-The Vision and Mission were curated but I don't currently have these up on the OSC Sheffield website but should probably
-get them on the landing page, but its a WordPress site that I haven't completely sussed out how to have a front page
-that isn't the most recent blog post.
-
-These aren't necessarily static and can evolve over time but currently the vision is...
-:::
-
-## Mission
-
-> We aim to develop and share knowledge and good Open Scholarship practices that foster, enable, encourage and support
-> Open Scholarship to be undertaken by anyone at the University of Sheffield wishing to do so.
->
-> We encourage community interactions where those with experience meet with those wishing to learn to share, support,
-> mentor and encourage good Open Scholarship practices. This will encourage collaboration between individuals, groups,
-> institutions and organisations seeking to improve transparency and openness in scientific research.
-
-:::{.notes}
-The Mission sets out in broad terms how we will go about achieving the vision and currently reads as...
-
-The Incubator Programme guided me through the different steps in identifying who the stakeholders would be both
-internally such as the Library, Open Research Working Group, Open Research Advisory Group, Heads of Faculties as well as
- externally such as the UK Research Network.
-
-The aim is to have a broad membership not just from University of Sheffield but also Sheffield Hallam and beyond with
-regular events for people to attend, learn about and share their experience of Open Research.
-:::
-
-## Member Recruitment
-
-:::: {.columns}
-::: {.column width=50%}
-+ Open Research Advisory Group (ORAG)
-+ Open Research Working Group (ORWG)
-+ ORWG members canvassed for faculty leaders
-  + Not currently complete, are you interested?
-:::
-::: {.column width="50%"}
-+ Launched at [OpenFest2023](https://ns-rse.github.io/openfest2023-oscsheffield/)
-+ [32 members](https://osc-international.com/osc-sheffield-members/?filter_osc_36e45=OSC%20Sheffield)
-:::
-::::
-
-:::{.notes}
-I've been quite fortunate in getting things going because the University of Sheffield already has structures in place
-and many active groups and individuals.
-
-At the top of the pyramid is the Open Research Advisory Group who incentivise and set out how the national policies are
-to be implemented. At the bottom under pinning activities are IT Infrastructure and Library services.
-
-Already bridging the middle of the pyramid of behaviour change is Jenni Adams and the Open Research Working Group as
-well as many other support staff who are actively engaged in undertaking and promoting Open Research here at the
-University and Jenni has been very supportive getting OSC Sheffield up and running and already organises a number of
-events.
-:::
 
 ## Community Engagement - Existing Activities
 
@@ -262,6 +206,7 @@ events.
 ::: {.column width="50%"}
 + [Unleash your Data](https://www.sheffield.ac.uk/library/research-data-management/unleash-your-data-2023-24)
 + ORWG Drop In-Sessions
++ RSE Code Clinics
 :::
 ::::
 
@@ -272,7 +217,7 @@ practices.
 There are the Open Research Conversations, the RSE team have run regular Lunchbyte sessions which cover technical
 aspects of conducting research using programming tools and making software FAIR.
 
-Earlier this year saw the return of the successful Sheffield OpenFest which showcased and championed Open Research
+Last year saw the return of the successful Sheffield OpenFest which showcased and championed Open Research
 activities and the summer saw a series Faculty of Seminars on making data FAIR, Findable, Accessible, Interoperable and
 Reusable.
 
@@ -301,9 +246,10 @@ first in the series was __How to Share Survey Data_.
 ::::
 
 :::{.notes}
-With the support of my colleague Grace Accad from IT Services we have re-launched the Sheffield R User group and had two
-meetings, one in October and one in November. These are events where people present their work with using the
-[R](https://www.r-project.org/) statistical programming language.
+With the support of my colleagues we have re-launched the Sheffield R User group and had regularish monthly meetings
+since October 2023. These are events where people present their work with using the [R](https://www.r-project.org/)
+statistical programming language which I like as I'm quite a practical person who likes helping people solve their
+problems with code.
 
 With Jim Uttley and Zuzanna Zagrodzka's who ran it previously we are also re-launching the
 [ReproducibiliTea](https://reproducibilitea.org/) Journal Club which aims to discuss diverse issues, papers and ideas
@@ -314,32 +260,29 @@ presented and how to attend either in person or online.
 :::
 
 
-## Community Engagement - OSC Sheffield
+## OSC Sheffield
 
 :::: {.columns}
 ::: {.column width=50%}
-+ Join and add your profile!
-+ [osc-international.com/osc-sheffield](https://osc-international.com/osc-sheffield/)
-+ **When one person teaches, two people learn.**
 
-{{< qrcode https://osc-international.com/osc-sheffield/ qr_oscsheffield width=250 height=250 >}}
+### Wider OSC involvement
+
++ Annual meeting
++ Help with Incubator
++ Talking here!
 
 :::
 ::: {.column width="50%"}
-![OSC Members](img/osc_sheffield_profiles3.png)
+
+### Challenges
+
++ Engagement (locally)
++ Engagement (other OSCs)
++ Time
+
 :::
 ::::
 
 :::{.notes}
-So, thank you for listening, and if this is the first time you've heard about Open Scholarship Community
-Sheffield and would like to be involved then please do join and add your profile, you can scan this QR code and sign-up.
-
-
-Alternatively if you feel there is some aspect of Open Research that you could do with advice on please do consider
-browsing the members profile page where each person has listed their areas of interest ane experience and feel free to
-contact them. If they don't have the specific knowledge or capacity to help they will likely be able to sign-post you to
-someone else or another service that can help.
-
-I'd be particularly interested to hear from you if you would like to be more involved on the Open Scholarship Community
-Sheffield whether you are are based at Hallam University or University of Sheffield, please do get in touch.
+Some notes
 :::
