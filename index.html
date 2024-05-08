@@ -9,7 +9,7 @@
 <link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.553">
+  <meta name="generator" content="quarto-1.4.554">
 
   <meta name="author" content="Neil Shephard">
   <title>Open Research Conversation - Open Scholarship Communities - How I Accidentally Started an Open Scholarship Community</title>
@@ -346,246 +346,370 @@ Neil Shephard <a href="https://orcid.org/0000-0001-8301-6857" class="quarto-titl
 </div>
 
 </section>
-<section class="slide level2">
+<section id="scan-this" class="slide level2">
+<h2>Scan This!</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div id="qr1" class="qrcode"></div>
+<script type="text/javascript">
+var qrcode = new QRCode("qr1", {"colorDark":"#000000","width":"400","colorLight":"#ffffff","text":"https://ns-rse.github.io/york-open-research-advocates-2024-05-08","height":"400"});
+</script>
+    
+<p><a href="https://ns-rse.github.io/york-open-research-advocates-2024-05-08">ns-rse.github.io/york-open-research-advocates-2024-05-08</a></p>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/OSC_Sheffield.png"></p>
+<figcaption><a href="https://osc-international.com/osc-sheffield">osc-international.com/osc-sheffield</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Thank you Ben,</p>
+<p>Before I get started if anyone would like to view these slides you can scan this QR code or visit the link in the footer of every slide.</p>
+<p>Good afternoon, my name is Neil Shephard and I’m a Research Software Engineer in the Department of Computer Science at the University of Sheffield.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="background" class="slide level2">
+<h2>Background</h2>
+<ul>
+<li>Genetic Epidemiologist 2000-2008</li>
+<li>Cancer Registry Statistician 2008-2009</li>
+<li>Medical Statistician (Clinical Trials) 2009-2018</li>
+<li>Data Scientist 2018-2022</li>
+<li>Research Software Engineer 2022-Present</li>
+</ul>
+<aside class="notes">
+<p>I’ve not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic Epidemiologist in Manchester, Perth Australia and back in Sheffield, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a stint as a Data Scientist before ending up here.</p>
+<p>What relevance does my career have? Well early on in my first job I tired very quickly of copying figures into documents and retyping numbers into tables and discovered literate programming in R using Sweave, which gave me a method of writing code for analysis and papers that made work reproducible and realised that there is a different way of working from the traditional and pervasive word processor and spreadsheets.</p>
+<p>Not only was it more efficient, but when working in Clinical Trials I discovered how to version control my code and share it on forges such as GitHub and GitLab it meant that it was easier to work in a reproducible and open manner which engendered a passion for Open Research that persists today.</p>
+<p>Now that I’ve explained very briefly how I came to be interested in Open Research I’m going to tell you a bit about how I accidentally started the Open Scholarship Community Sheffield.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="pre-existing-community-sheffield" class="slide level2">
+<h2>Pre-Existing Community Sheffield</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/rse-logoonly-stroke.png" style="width:60.0%"></p>
+<figcaption><a href="https://rse.shef.ac.uk">Research Software Engineering</a></figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/library.jpg" style="width:60.0%"></p>
+<figcaption><a href="https://www.sheffield.ac.uk/library">Library Services</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/it_services.jpg" style="width:60.0%"></p>
+<figcaption><a href="https://students.sheffield.ac.uk/it-services/research">Research IT and Support</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>So I’ve had a long standing interest in open and reproducible research and have taken this extrapolated path to become a Research Software Engineer. The Research Software Engineering team and associated groups in the University such as Research IT and Support and Library Services, we interact regularly on various aspects of service provision and there is a Slack channel. There is an Open Research group in the Library, with specialisation in licensing, data management and so forth and an Open Research Manager, my colleague Dr Jenni Adams. There is an Open Research Working Group of</p>
+<p>Just over two years ago I was tasked with growing the RSE community to improve engagement between members who interacted across the University and expand participation.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="inosc-incubator-programme" class="slide level2">
+<h2>INOSC Incubator Programme</h2>
+<p><img data-src="img/inosc.png" style="width:50.0%"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/inosc_incubator.png" style="width:80.0%"></p>
+<figcaption><a href="https://osc-international.com/start-your-own-osc/">OSC Incubator Program</a></figcaption>
+</figure>
+</div>
+<aside class="notes">
+<p>Whilst browsing around on media feeds I came across the OSC Incubator Programme which was running in early March 2022 and was advertised as a way of growing your community and I thought this would be a useful way of finding out some ways to help grow the RSE community at The University of Sheffield so signed up.</p>
+<p>I can be a bit slow at times and didn’t think too much about the key word in the title “Incubator”.</p>
+<p>In the very first session the penny dropped and I realised that I would be establishing an Open Science Community in Sheffield, which is where the “accidental” part of this short talks title comes from.</p>
+<p>So what did I let myself in for? Well thankfully it’s a really well structured course!</p>
+<p>The International Open Science and Scholarship Community was established at University of Utrecht and has grown within to 12 local communities at different Universities throughout the Netherlands who collectively form a national network.</p>
+<p>The Incubator Programme aims to help grow the OSC community beyond The Netherlands. It runs over 14 weeks with a three hour morning session every other week and homework tasks in-between and takes people through a series of steps to help them establish a local OSC Community.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-communities" class="slide level2">
+<h2>Why Communities?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/COS_Culture_and_Behavior_Change_model2.png" style="width:75.0%"></p>
+<figcaption><a href="https://www.cos.io/blog/cos-celebrates-10-years">Improving the Research Culture: COS Celebrates 10 Years</a></figcaption>
+</figure>
+</div>
 
-<!-- ## Scan This! -->
-<!-- :::: {.columns} -->
-<!-- ::: {.column width="50%"} -->
-<!--  -->
-<!-- [ns-rse.github.io/open-research-conversation-2023-11](https://ns-rse.github.io/open-research-conversation-2023-11) -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![[osc-international.com/osc-sheffield](osc-international.com/osc-sheffield)](img/OSC_Sheffield.png) -->
-<!-- ::: -->
-<!-- :::: -->
-<!-- ::: {.notes} -->
-<!-- Thank you Jenni, -->
-<!-- If anyone would like to view these slides you can scan this QR code or visit the link in the footer of every slide. -->
-<!-- ::: -->
-<!-- ## Background -->
-<!-- + Genetic Epidemiologist 2000-2008 -->
-<!-- + Cancer Registry Statistician 2008-2009 -->
-<!-- + Medical Statistician (Clinical Trials) 2009-2018 -->
-<!-- + Data Scientist 2018-2022 -->
-<!-- + Research Software Engineer 2022-Present -->
-<!-- ::: {.notes} -->
-<!-- Good afternoon, my name is Neil Shephard and I'm a Research Software Engineer in the Department of Computer Science at -->
-<!-- the University of Sheffield. -->
-<!-- I've not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic -->
-<!-- Epidemiologist, then working at a Cancer Registry before nine years as a Medical Statistician in Clinical Trials and a -->
-<!-- stint as a Data Scientist before ending up here. -->
-<!-- What relevance does my career have? Well early on in my first job I discovered literate programming a method of writing -->
-<!-- code for analysis and papers that made work reproducible and realised that there is a different way of working from -->
-<!-- the traditional and pervasive word processor and spreadsheets. -->
-<!-- Not only was it more efficient, but it also meant that it was easier to work in a reproducible and open manner which -->
-<!-- engendered a passion for Open Research that persists today. -->
-<!-- Now that I've explained very briefly how I came to be interested in Open Research I'm going to tell you a bit about how -->
-<!-- I accidentally started the Open Scholarship Community Sheffield. -->
-<!-- ::: -->
-<!-- ## Open Scholarship Community Sheffield -->
-<!-- :::: {.columns} -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![[Research Software Engineering](https://rse.shef.ac.uk)](img/rse-logoonly-stroke.png){width=60%} -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![[Library Services](https://www.sheffield.ac.uk/library)](img/library.jpg){width=60%} -->
-<!-- ![[Research IT and Support](https://students.sheffield.ac.uk/it-services/research)](img/it_services.jpg){width=60%} -->
-<!-- ::: -->
-<!-- :::: -->
-<!-- ::: {.notes} -->
-<!-- So I've had a long standing interest in open and reproducible research and have taken this extrapolated path to become a -->
-<!-- Research Software Engineer. The Research Software Engineering team and associated groups in the University such as IT -->
-<!-- Research Services and the Library have a small community, we interact regularly on various aspects of service provision -->
-<!-- and there is a Slack channel. And about a year ago I was tasked with growing the RSE community to improve engagement and -->
-<!-- members who interacted across the University. -->
-<!-- ::: -->
-<!-- ## INOSC Incubator Programme -->
-<!-- ![](img/inosc.png){width=50%} -->
-<!-- ![[OSC Incubator Program](https://osc-international.com/start-your-own-osc/)](img/inosc_incubator.png){width=80%} -->
-<!-- ::: {.notes} -->
-<!-- I was browsing through media feeds as I do and I came across the OSC Incubator Programme which was running in early -->
-<!-- March 2022 and was advertised as a way of growing your community and I thought this would be a useful way of finding out -->
-<!-- some ways to help grow the RSE community at The University of Sheffield. -->
-<!-- I can be a bit slow at times and didn't think too much about the key word in the title "Incubator" but signed up. -->
-<!-- In the very first session the penny dropped and I realised that I would be establishing a Open Science Community, -->
-<!-- which is where the "accidental" part of this short presentation comes from. -->
-<!-- So what did I let myself in for? Well thankfully its a really well structured course! -->
-<!-- The International Open Science and Scholarship Community was established at University of Utrecht and has grown within -->
-<!-- the Netherlands with 12 local communities at different Universities throughout the Netherlands. -->
-<!-- The Incubator Programme aims to help grow the OSC community beyond The Netherlands. The Incubator Programme runs -->
-<!-- over 14 weeks and takes people through setting up a local OSC Community. -->
-<!-- ::: -->
-<!-- ## OSC Incubator Programme - Curriculum -->
-<!-- <\!-- :::: {.columns} -\-> -->
-<!-- <\!-- ::: {.column width=50%} -\-> -->
-<!-- 1. Mission and Vision -->
-<!-- 2. Member Recruitment -->
-<!-- 3. Community Engagement -->
-<!-- <\!-- ::: -\-> -->
-<!-- <\!-- ::: {.column width="50%"} -\-> -->
-<!-- 4. Stakeholder Engagement -->
-<!-- 5. Monitoring and Sustainability -->
-<!-- 6. Open Session and Final Presentation -->
-<!-- <\!-- ::: -\-> -->
-<!-- <\!-- :::: -\-> -->
-<!-- ::: {.notes} -->
-<!-- This involves setting a Mission and Vision, how to go about Community Engagement and Recruiting Members, engaging with -->
-<!-- Stakeholders, monitoring activity, progress and sustainability. -->
-<!-- The OSC Incubator Programme spent a session on each, typically three hours once a fortnight on each of these topics with -->
-<!-- interactive sessions and break-out groups as well as homework to go off and develop each area and come up with detailed -->
-<!-- plans for each. I'd like to say I completed all of these in great detail but in reality because this was something I was -->
-<!-- fitting in around my work the result is a bit patchy.  However, with the brilliant support and encouragement from Jenni -->
-<!-- Adams and a few others I've forged ahead and the Open Scholarship Community Sheffield now exists. -->
-<!-- The Incubator Programme is structured in such a manner as to guide you in the development of a plan for -->
-<!-- the community which in essence can serve as a basis for grant applications. -->
-<!-- I'm not going to go into the various areas in detail but will cover why communities are important, the mission and -->
-<!-- vision, member recruitment and community engagement. -->
-<!-- ::: -->
-<!-- ## Why Communities -->
-<!-- ![[Improving the Research Culture: COS Celebrates 10 Years](https://www.cos.io/blog/cos-celebrates-10-years)](img/COS_Culture_and_Behavior_Change_model2.png){width=75%} -->
-<!-- ::: aside -->
-<!-- [Nosek (2019) Strategy for Culture Change](https://www.cos.io/blog/strategy-for-culture-change) -->
-<!-- ::: -->
-<!-- :::{.notes} -->
-<!-- Being somewhat naive about the role communities play it was useful to find out how they fit in to effecting culture -->
-<!-- change and I really like this graphic which I think explains the role communities play well. -->
-<!-- Infrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the -->
-<!-- Open Science Framework which allows researchers to register their studies, share materials, data and output at any point -->
-<!-- to accelerate communication regardless of publication status. -->
-<!-- But for this to be effective the user experience needs to be low friction to encourage adoption and many -->
-<!-- popular services integrate with each other and strive to make their tools accessible. -->
-<!-- From the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do -->
-<!-- within the system to gain recognition. -->
-<!-- This in turn defines the incentives that reward participants for participating in the system. -->
-<!-- Whilst individuals can always go about changing their own behaviour, this can be challenging when the culture is -->
-<!-- to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of -->
-<!-- supporting and nurturing individuals who are seeking to change is via a supportive community as seeing others -->
-<!-- using open research practices normalises the behavioural changes, provides support and demonstrates that open research is -->
-<!-- possible. -->
-<!-- Thus communities normalise behaviour and serve to accelerate the adoption of change, in this case Open Research -->
-<!-- practices, and importantly can feed up the pyramid to the top to influence and shape policy as practices and guidelines -->
-<!-- develop and mature over time. -->
-<!-- ::: -->
-<!-- ## Vision -->
-<!-- > To be an inclusive, supportive, and active community for researchers to interact, share knowledge and encourage good -->
-<!-- > working practices such that the values, transparency and culture of Open Scholarship becomes the norm. -->
-<!-- :::{.notes} -->
-<!-- The Vision and Mission were curated but I don't currently have these up on the OSC Sheffield website but should probably -->
-<!-- get them on the landing page, but its a WordPress site that I haven't completely sussed out how to have a front page -->
-<!-- that isn't the most recent blog post. -->
-<!-- These aren't necessarily static and can evolve over time but currently the vision is... -->
-<!-- ::: -->
-<!-- ## Mission -->
-<!-- > We aim to develop and share knowledge and good Open Scholarship practices that foster, enable, encourage and support -->
-<!-- > Open Scholarship to be undertaken by anyone at the University of Sheffield wishing to do so. -->
-<!-- > -->
-<!-- > We encourage community interactions where those with experience meet with those wishing to learn to share, support, -->
-<!-- > mentor and encourage good Open Scholarship practices. This will encourage collaboration between individuals, groups, -->
-<!-- > institutions and organisations seeking to improve transparency and openness in scientific research. -->
-<!-- :::{.notes} -->
-<!-- The Mission sets out in broad terms how we will go about achieving the vision and currently reads as... -->
-<!-- The Incubator Programme guided me through the different steps in identifying who the stakeholders would be both -->
-<!-- internally such as the Library, Open Research Working Group, Open Research Advisory Group, Heads of Faculties as well as -->
-<!--  externally such as the UK Research Network. -->
-<!-- The aim is to have a broad membership not just from University of Sheffield but also Sheffield Hallam and beyond with -->
-<!-- regular events for people to attend, learn about and share their experience of Open Research. -->
-<!-- ::: -->
-<!-- ## Member Recruitment -->
+<aside class="notes">
+<p>Before I go through the curriculum I thought it would be worth explaining why there is a focus on communities and how they fit in to effecting culture change as I was somewhat naive about this.</p>
+<p>I think this graphic from a paper by Brian Nosek, one of the co-founders of the Open Science Framework, helps explains the role communities play well.</p>
+<p>Infrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the Open Science Framework which allows researchers to register their studies, share materials, data and output at any point to accelerate communication regardless of publication status.</p>
+<p>But for this to be effective the user experience needs to be low friction to encourage adoption and many popular services integrate with each other and strive to make their tools accessible and interoperable and provide training.</p>
+<p>From the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do within the system to gain recognition and reward participants for participating in the system and adopting the policy changes.</p>
+<p>Whilst individuals can always go about changing their own behaviour, this can be challenging when the culture is to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of supporting and nurturing individuals who are seeking to change is via a supportive community as seeing others using open research practices normalises the behavioural changes, provides support and demonstrates that open research is possible.</p>
+<p>Thus communities normalise behaviour and serve to accelerate the adoption of change, in this case Open Research practices, and importantly can feed up the pyramid to the top to influence and shape policy as practices and guidelines develop and mature over time.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside><div>
+<p><a href="https://www.cos.io/blog/strategy-for-culture-change">Nosek (2019) Strategy for Culture Change</a></p>
+</div></aside></section>
+<section id="normalising-behaviour" class="slide level2">
+<h2>Normalising Behaviour</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/diffusion_innovation.png"></p>
+<figcaption>Diffusion of Innovation</figcaption>
+</figure>
+</div>
+<aside class="notes">
+<p>This graphic shows the Diffusion of Innovation, on the x-axis you have the propensity to adopt new practices, with high on the far left and low, or high resistance on the far right. You have a small number of innovators on the far left, followed by some early adopters, they are followed by the Early Majority and then you start reaching those who somewhat resist change, the Late Majority and at the far end you have those who really don’t want to change who might be considered Laggards.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="osc-incubator-programme---curriculum" class="slide level2">
+<h2>OSC Incubator Programme - Curriculum</h2>
 <!-- :::: {.columns} -->
 <!-- ::: {.column width=50%} -->
-<!-- + Open Research Advisory Group (ORAG) -->
-<!-- + Open Research Working Group (ORWG) -->
-<!-- + ORWG members canvassed for faculty leaders -->
-<!--   + Not currently complete, are you interested? -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-<!-- + Launched at [OpenFest2023](https://ns-rse.github.io/openfest2023-oscsheffield/) -->
-<!-- + [32 members](https://osc-international.com/osc-sheffield-members/?filter_osc_36e45=OSC%20Sheffield) -->
-<!-- ::: -->
-<!-- :::: -->
-<!-- :::{.notes} -->
-<!-- I've been quite fortunate in getting things going because the University of Sheffield already has structures in place -->
-<!-- and many active groups and individuals. -->
-<!-- At the top of the pyramid is the Open Research Advisory Group who incentivise and set out how the national policies are -->
-<!-- to be implemented. At the bottom under pinning activities are IT Infrastructure and Library services. -->
-<!-- Already bridging the middle of the pyramid of behaviour change is Jenni Adams and the Open Research Working Group as -->
-<!-- well as many other support staff who are actively engaged in undertaking and promoting Open Research here at the -->
-<!-- University and Jenni has been very supportive getting OSC Sheffield up and running and already organises a number of -->
-<!-- events. -->
-<!-- ::: -->
-<!-- ## Community Engagement - Existing Activities -->
-<!-- :::: {.columns} -->
-<!-- ::: {.column width=50%} -->
-<!-- + Open Research Conversation. -->
-<!-- + RSE Lunchbytes. -->
-<!-- + OpenFest -->
-<!-- + FAIR Faculty Seminars -->
-<!-- + [How to Share Data Series](https://www.sheffield.ac.uk/openresearch/events/how-share-seminar-series) -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-<!-- + [Unleash your Data](https://www.sheffield.ac.uk/library/research-data-management/unleash-your-data-2023-24) -->
-<!-- + ORWG Drop In-Sessions -->
-<!-- ::: -->
-<!-- :::: -->
-<!-- :::{.notes} -->
-<!-- Various events are already organised that help bring people together to talk about and share ideas around Open Research -->
-<!-- practices. -->
-<!-- There are the Open Research Conversations, the RSE team have run regular Lunchbyte sessions which cover technical -->
-<!-- aspects of conducting research using programming tools and making software FAIR. -->
-<!-- Earlier this year saw the return of the successful Sheffield OpenFest which showcased and championed Open Research -->
-<!-- activities and the summer saw a series Faculty of Seminars on making data FAIR, Findable, Accessible, Interoperable and -->
-<!-- Reusable. -->
-<!-- This semester there has seen the first in a series of seminars on How to Share Survey Data led by Ric Campbell and the -->
-<!-- first in the series was __How to Share Survey Data_. -->
-<!-- ::: -->
-<!-- ## Community Engagement - New Activities -->
-<!-- :::: {.columns} -->
-<!-- ::: {.column width=50%} -->
-<!-- ![[**sheffieldr.github.io**](https://sheffieldr.github.io)](img/SheffieldR_hex.png){width=30%} -->
-<!--  -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![[**reproducibilitea-sheffield.github.io**](https://reproducibilitea-sheffield.github.io/)](img/reproducibiliTea_logo.jpg){widh=120%} -->
-<!--  -->
-<!-- ::: -->
-<!-- :::: -->
-<!-- :::{.notes} -->
-<!-- With the support of my colleague Grace Accad from IT Services we have re-launched the Sheffield R User group and had two -->
-<!-- meetings, one in October and one in November. These are events where people present their work with using the -->
-<!-- [R](https://www.r-project.org/) statistical programming language. -->
-<!-- With Jim Uttley and Zuzanna Zagrodzka's who ran it previously we are also re-launching the -->
-<!-- [ReproducibiliTea](https://reproducibilitea.org/) Journal Club which aims to discuss diverse issues, papers and ideas -->
-<!-- about improving science, reproducibility and the Open Science movement and the first of those is scheduled for next week -->
-<!-- following the next Open Research Conversation. We'll be meeting in the Diamond next week to discuss a paper on -->
-<!-- reproducibility in the psychological sciences and if you follow the links you can find out more about paper that will be -->
-<!-- presented and how to attend either in person or online. -->
-<!-- ::: -->
-<!-- ## Community Engagement - OSC Sheffield -->
-<!-- :::: {.columns} -->
-<!-- ::: {.column width=50%} -->
-<!-- + Join and add your profile! -->
-<!-- + [osc-international.com/osc-sheffield](https://osc-international.com/osc-sheffield/) -->
-<!-- + **When one person teaches, two people learn.** -->
-<!--  -->
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-<!-- ![OSC Members](img/osc_sheffield_profiles3.png) -->
-<!-- ::: -->
-<!-- :::: -->
-<!-- :::{.notes} -->
-<!-- So, thank you for listening, and if this is the first time you've heard about Open Scholarship Community -->
-<!-- Sheffield and would like to be involved then please do join and add your profile, you can scan this QR code and sign-up. -->
-<!-- Alternatively if you feel there is some aspect of Open Research that you could do with advice on please do consider -->
-<!-- browsing the members profile page where each person has listed their areas of interest ane experience and feel free to -->
-<!-- contact them. If they don't have the specific knowledge or capacity to help they will likely be able to sign-post you to -->
-<!-- someone else or another service that can help. -->
-<!-- I'd be particularly interested to hear from you if you would like to be more involved on the Open Scholarship Community -->
-<!-- Sheffield whether you are are based at Hallam University or University of Sheffield, please do get in touch. -->
-<!-- ::: -->
+<ol type="1">
+<li>Mission and Vision</li>
+<li>Member Recruitment</li>
+<li>Community Engagement <!-- ::: --> <!-- ::: {.column width="50%"} --></li>
+<li>Stakeholder Engagement</li>
+<li>Monitoring and Sustainability</li>
+<li>Open Session and Final Presentation <!-- ::: --> <!-- :::: --></li>
+</ol>
+<aside class="notes">
+<p>Ok so that hopefully explains why communities are important and the role they can play in effecting change.</p>
+<p>How does the OSC Incubator Programme help with community formation and direction?</p>
+<p>As mentioned they have three hour sessions once a fortnight and we started by understanding and crafting a mission and vision statement which sets out what the community seeks to achieve.</p>
+<p>There is then a session where you think about how to engage with the community and recruit members followed by a sessions on engaging with stakeholders such as Universities and funders, how to monitor activity, progress and the longer term sustainability of the community.</p>
+<p>The Incubator Programme is structured in such a manner as to guide you in the development of a plan for the community which in essence can serve as a basis for grant applications.</p>
+<p>I’d like to say I completed all of these in great detail but in reality because this was something I was fitting in around my work the result is a bit patchy. However, with the brilliant support and encouragement from Jenni Adams, the Open Research Manager at the Library and a few others I’ve forged ahead and the Open Scholarship Community Sheffield now exists.</p>
+<p>The programme I attended had a diverse group of people from France, Portugal, Greece, Germany, Finland and the UK (Durham as well as myself) and I’ve kept in contact with some of those who undertook the course and are still actively working on their communities.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="community-engagement---existing-activities" class="slide level2">
+<h2>Community Engagement - Existing Activities</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Open Research Conversation.</li>
+<li>RSE Lunchbytes.</li>
+<li>OpenFest</li>
+<li>FAIR Faculty Seminars</li>
+<li><a href="https://www.sheffield.ac.uk/openresearch/events/how-share-seminar-series">How to Share Data Series</a></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><a href="https://www.sheffield.ac.uk/library/research-data-management/unleash-your-data-2023-24">Unleash your Data</a></li>
+<li>ORWG Drop In-Sessions</li>
+<li>RSE Code Clinics <a href="https://osc-international.com/mc-events/openfest2024/?mc_id=73"><img data-src="https://osc-international.com/wp-content/uploads/2023/07/OpenFest.jpg" alt="OpenFest"></a></li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<p>So what has changed since starting OSC Sheffiled?</p>
+<p>Well I’m quite fortuante in that there is already a strong shift towards Open Research here at Sheffield and there are already various events organised that help bring people together to talk about and share ideas around Open Research practices.</p>
+<p>There are the Open Research Conversations which are monthly seminars organised by my colleague Jenni to discuss different topics around Open Research, publishing, data access and so forth. Jenni also organises the successful OpenFest which is returning for its third season in eptember</p>
+<p>, the RSE team have run regular Lunchbyte sessions which cover technical aspects of conducting research using programming tools and making software FAIR.</p>
+<p>Last year saw the return of the successful Sheffield OpenFest which showcased and championed Open Research activities and the summer saw a series Faculty of Seminars on making data FAIR, Findable, Accessible, Interoperable and Reusable.</p>
+<p>This semester there has seen the first in a series of seminars on How to Share Survey Data led by Ric Campbell and the first in the series was __How to Share Survey Data_.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="community-engagement---new-activities" class="slide level2">
+<h2>Community Engagement - New Activities</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/SheffieldR_hex.png" style="width:30.0%"></p>
+<figcaption><a href="https://sheffieldr.github.io"><strong>sheffieldr.github.io</strong></a></figcaption>
+</figure>
+</div>
+<div id="qr_sheffieldr" class="qrcode"></div>
+<script type="text/javascript">
+var qrcode = new QRCode("qr_sheffieldr", {"colorDark":"#000000","width":"250","colorLight":"#ffffff","text":"https://sheffieldr.github.io","height":"250"});
+</script>
+    
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/reproducibiliTea_logo.jpg" data-widh="120%"></p>
+<figcaption><a href="https://reproducibilitea-sheffield.github.io/"><strong>reproducibilitea-sheffield.github.io</strong></a></figcaption>
+</figure>
+</div>
+<div id="qr_reproducibilitea" class="qrcode"></div>
+<script type="text/javascript">
+var qrcode = new QRCode("qr_reproducibilitea", {"colorDark":"#000000","width":"250","colorLight":"#ffffff","text":"https://reproducibilitea-sheffield.github.io/","height":"250"});
+</script>
+    
+</div>
+</div>
+<aside class="notes">
+<p>With the support of my colleagues we have re-launched the Sheffield R User group and had regularish monthly meetings since October 2023. These are events where people present their work using the <a href="https://www.r-project.org/">R</a> statistical programming language which I like as I’m quite a practical person who likes helping people solve their problems with code.</p>
+<p>With Jim Uttley and Zuzanna Zagrodzka’s who ran it previously we have also re-launched the <a href="https://reproducibilitea.org/">ReproducibiliTea</a> Journal Club which aims to discuss diverse issues, papers and ideas about improving science, reproducibility and the Open Science movement and these have seen moderate attendance since they started in January this year.</p>
+<p>Just as with the Open Research Conversations these are hybrid events and anyone is welcome to attend.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="osc-sheffield" class="slide level2">
+<h2>OSC Sheffield</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="wider-osc-involvement">Wider OSC involvement</h3>
+<ul>
+<li>Annual meeting</li>
+<li>Help with Incubator</li>
+<li>Open Research Conversation</li>
+<li>OSC Sussex</li>
+<li>Talking here!</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="challenges">Challenges</h3>
+<ul>
+<li>Engagement (locally)</li>
+<li>Engagement (other OSCs in UK)</li>
+<li>Measuring “Success”</li>
+<li>Time</li>
+</ul>
+</div>
+</div>
+<aside class="notes">
+<p>As well as resurrecting SheffieldR and ReproducibiliTea Journal Club since establishing OSC Sheffield I’ve had some involvement with the wider OSC community. The OSC International has an annual meeting which as representative I attended which is primarily concerned with governance of the OSC.</p>
+<p>I helped out with this years Incubator Programme and attended the session where existing representatives or members spoke with the current in take and prior to that Sam Nesbit from the University of Sussex had reached out to myself and Jenni to have a chat in much the same way as Ben has invited me here today to talk about my experience so far.</p>
+<p>I also thought it might be worth mentioning some of the challenges I think there are.</p>
+<p>The first and perhaps biggest challenge I’ve found has been local engagement, there are a a bunch of people in Sheffield who are interested and motivated to see open research and reproducibility be adopted more widely but they are already engaged in doing so themselves (the early adopters and early majority) and its the people who are aren’t already aware of the movement and the late majority and laggards who are really the ones I think would benefit from seeing the practices and behaviours normalised but that takes time.</p>
+<p>Beyond Sheffield there is the challenge of banding together with other OSCs within the UK to form a wider national network and perhaps concerns with how OSC compares and fits in with the UK Research Network but I think there is space for both as they have common goals but from different angles, with UKRN promoting training and disseminating best practices and understand what factors promote reproducibility and replicability. Communities compliment these efforts and should provide local support for when people come across problems that weren’t covered in training or are unique to a persons problem.</p>
+<p>From a personal perspective, whilst the University of Sheffield has been supportive of the idea of OSC Sheffield they haven’t afforded me any work time allocation to cover the time I spend on it so the tasks of coordinating SheffieldR and Reproducibilitea and so forth are an adjunct to my main duties and responsibilities, but as I said at the outset I’m passionate about open and reproducible research so I don’t mind.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="thank-you" class="slide level2">
+<h2>Thank you…</h2>
+<ul>
+<li>Anita Eerland and Loek Brinkman (OSC Incubator Programme)</li>
+<li>Jenni Addams (Open Research Manager, University of Sheffield Library)</li>
+<li>Jim Uttley (Open Research Working Group Lead)</li>
+<li>Zuzanna Zagrodzka (PhD Student in Open Research)</li>
+<li>Grace Accad (Data Science Services, SheffieldR Co-organiser)</li>
+</ul>
+<aside class="notes">
+<p>And that brings to an end my short presentation, and whilst none of them are here I’d like to thank Anita and Loek who established OSC Utrecht and Netherlands and some of my colleagues at the University of Sheffield who have been supportive and helped with organising many of the activities.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
-<p><strong>Slides</strong> : <a href="https://ns-rse.github.io/open-research-conversation-2023-11"><strong>ns-rse.github.io/open-research-conversation-2023-11</strong></a></p>
+<p><strong>Slides</strong> : <a href="https://ns-rse.github.io/york-open-research-advocates-2024-05-08"><strong>ns-rse.github.io/york-open-research-advocates-2024-05-08</strong></a></p>
 </div>
 </div>
 </section>
