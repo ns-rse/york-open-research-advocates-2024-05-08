@@ -40,7 +40,10 @@ project:
 ::: {.notes}
 Thank you Ben,
 
-If anyone would like to view these slides you can scan this QR code or visit the link in the footer of every slide.
+Before I get started if anyone would like to view these slides you can scan this QR code or visit the link in the footer of every slide.
+
+Good afternoon, my name is Neil Shephard and I'm a Research Software Engineer in the Department of Computer Science at
+the University of Sheffield.
 :::
 
 ## Background
@@ -52,18 +55,17 @@ If anyone would like to view these slides you can scan this QR code or visit the
 + Research Software Engineer 2022-Present
 
 ::: {.notes}
-Good afternoon, my name is Neil Shephard and I'm a Research Software Engineer in the Department of Computer Science at
-the University of Sheffield.
-
 I've not always been a Research Software Engineer though, and have had a varied career spending time as a Genetic
 Epidemiologist in Manchester, Perth Australia and back in Sheffield, then working at a Cancer Registry before nine years
 as a Medical Statistician in Clinical Trials and a stint as a Data Scientist before ending up here.
 
-What relevance does my career have? Well early on in my first job I discovered literate programming a method of writing
+What relevance does my career have? Well early on in my first job I tired very quickly of copying figures into documents
+and retyping numbers into tables and discovered literate programming in R using Sweave, which gave me a method of writing
 code for analysis and papers that made work reproducible and realised that there is a different way of working from
 the traditional and pervasive word processor and spreadsheets.
 
-Not only was it more efficient, but it also meant that it was easier to work in a reproducible and open manner which
+Not only was it more efficient, but when working in Clinical Trials I discovered how to version control my code and
+share it on forges such as GitHub and GitLab it meant that it was easier to work in a reproducible and open manner which
 engendered a passion for Open Research that persists today.
 
 
@@ -87,14 +89,14 @@ I accidentally started the Open Scholarship Community Sheffield.
 
 ::: {.notes}
 So I've had a long standing interest in open and reproducible research and have taken this extrapolated path to become a
-Research Software Engineer. The Research Software Engineering team and associated groups in the University such as IT
-Research Services and the Library have a small community, we interact regularly on various aspects of service provision
+Research Software Engineer. The Research Software Engineering team and associated groups in the University such as
+Research IT and Support and Library Services, we interact regularly on various aspects of service provision
 and there is a Slack channel. There is an Open Research group in the Library, with specialisation in licensing, data
 management and so forth and an Open Research Manager, my colleague Dr Jenni Adams. There is an Open Research Working
 Group of
 
-Just over two years ago I was tasked with growing the RSE community to improve engagement and members who interacted across
-the University.
+Just over two years ago I was tasked with growing the RSE community to improve engagement between members who interacted
+across the University and expand participation.
 :::
 
 ## INOSC Incubator Programme
@@ -106,24 +108,77 @@ the University.
 
 
 ::: {.notes}
-I was browsing through media feeds as I do came across the OSC Incubator Programme which was running in early
+Whilst browsing around on media feeds I came across the OSC Incubator Programme which was running in early
 March 2022 and was advertised as a way of growing your community and I thought this would be a useful way of finding out
-some ways to help grow the RSE community at The University of Sheffield.
+some ways to help grow the RSE community at The University of Sheffield so signed up.
 
-I can be a bit slow at times and didn't think too much about the key word in the title "Incubator" but signed up.
+I can be a bit slow at times and didn't think too much about the key word in the title "Incubator".
 
 In the very first session the penny dropped and I realised that I would be establishing an Open Science Community in
-Sheffield, which is where the "accidental" part of this short presentation comes from.
+Sheffield, which is where the "accidental" part of this short talks title comes from.
 
 So what did I let myself in for? Well thankfully it's a really well structured course!
 
 The International Open Science and Scholarship Community was established at University of Utrecht and has grown within
-the Netherlands with 12 local communities at different Universities throughout the Netherlands who collectively form a
-national network of communities.
+to 12 local communities at different Universities throughout the Netherlands who collectively form a national network.
 
-The Incubator Programme aims to help grow the OSC community beyond The Netherlands and runs over 14 weeks and takes people through setting up a local OSC Community.
+The Incubator Programme aims to help grow the OSC community beyond The Netherlands. It runs over 14 weeks with a three
+hour morning session every other week and homework tasks in-between and takes people through a series of steps to help
+them establish a local OSC Community.
+
 :::
 
+## Why Communities?
+
+![[Improving the Research Culture: COS Celebrates 10 Years](https://www.cos.io/blog/cos-celebrates-10-years)](img/COS_Culture_and_Behavior_Change_model2.png){width=75%}
+
+::: aside
+[Nosek (2019) Strategy for Culture Change](https://www.cos.io/blog/strategy-for-culture-change)
+:::
+
+:::{.notes}
+Before I go through the curriculum I thought it would be worth explaining why there is a focus on communities and how
+they fit in to effecting culture change as I was somewhat naive about this.
+
+I think this graphic from a paper by Brian Nosek, one of the co-founders of the Open Science Framework, helps explains
+the role communities play well.
+
+Infrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the
+Open Science Framework which allows researchers to register their studies, share materials, data and output at any point
+to accelerate communication regardless of publication status.
+
+But for this to be effective the user experience needs to be low friction to encourage adoption and many
+popular services integrate with each other and strive to make their tools accessible and interoperable and provide
+training.
+
+From the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do
+within the system to gain recognition and reward participants for participating in the system and adopting the policy
+changes.
+
+Whilst individuals can always go about changing their own behaviour, this can be challenging when the culture is
+to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of
+supporting and nurturing individuals who are seeking to change is via a supportive community as seeing others
+using open research practices normalises the behavioural changes, provides support and demonstrates that open research
+is possible.
+
+Thus communities normalise behaviour and serve to accelerate the adoption of change, in this case Open Research
+practices, and importantly can feed up the pyramid to the top to influence and shape policy as practices and guidelines
+develop and mature over time.
+:::
+
+## Normalising Behaviour
+
+![Diffusion of Innovation](img/diffusion_innovation.png)
+
+
+::: {.notes}
+This graphic shows the Diffusion of Innovation, on the x-axis you have the propensity to adopt new practices, with high
+on the far left and low, or high resistance on the far right. You have a small number of innovators on the far left,
+followed by some early adopters, they are followed by the Early Majority and then you start reaching those who somewhat
+resist change, the Late Majority and at the far end you have those who really don't want to change who might be
+considered Laggards.
+
+:::
 ## OSC Incubator Programme - Curriculum
 
 <!-- :::: {.columns} -->
@@ -140,57 +195,33 @@ The Incubator Programme aims to help grow the OSC community beyond The Netherlan
 <!-- :::: -->
 
 ::: {.notes}
-This involves setting a Mission and Vision, how to go about Community Engagement and Recruiting Members, engaging with
-Stakeholders, monitoring activity, progress and sustainability.
+Ok so that hopefully explains why communities are important and the role they can play in effecting change.
 
-The OSC Incubator Programme spent a session on each, typically three hours once a fortnight on each of these topics with
-interactive sessions and break-out groups as well as homework to go off and develop each area and come up with detailed
-plans for each. I'd like to say I completed all of these in great detail but in reality because this was something I was
-fitting in around my work the result is a bit patchy.  However, with the brilliant support and encouragement from Jenni
-Adams and a few others I've forged ahead and the Open Scholarship Community Sheffield now exists.
+How does the OSC Incubator Programme help with community formation and direction?
+
+As mentioned they have three hour sessions once a fortnight and we started by understanding and crafting a mission and
+vision statement which sets out what the community seeks to achieve.
+
+There is then a session where you think about how to engage with the community and recruit members followed by a
+sessions on engaging with stakeholders such as Universities and funders, how to monitor activity, progress and the
+longer term sustainability of the community.
 
 The Incubator Programme is structured in such a manner as to guide you in the development of a plan for
 the community which in essence can serve as a basis for grant applications.
 
-I'm not going to go into the various areas in detail but will cover why communities are important, the mission and
-vision, member recruitment and community engagement.
+I'd like to say I completed all of these in great detail but in reality because this was something I was
+fitting in around my work the result is a bit patchy.  However, with the brilliant support and encouragement from Jenni
+Adams, the Open Research Manager at the Library and a few others I've forged ahead and the Open Scholarship Community
+Sheffield now exists.
+
+
+The programme I attended had a diverse group of people from France, Portugal, Greece, Germany, Finland and the UK
+(Durham as well as myself) and I've kept in contact with some of those who undertook the course and are still actively
+working on their communities.
+
 :::
 
 
-## Why Communities
-
-![[Improving the Research Culture: COS Celebrates 10 Years](https://www.cos.io/blog/cos-celebrates-10-years)](img/COS_Culture_and_Behavior_Change_model2.png){width=75%}
-
-::: aside
-[Nosek (2019) Strategy for Culture Change](https://www.cos.io/blog/strategy-for-culture-change)
-:::
-
-:::{.notes}
-Being somewhat naive about the role communities play it was useful to find out how they fit in to effecting culture
-change and I really like this graphic from a paper by Brian Nosek, one of the co-founders of the Open Science Framework,
-which I think explains the role communities play well.
-
-Infrastructure is at the base of the pyramid of culture and behaviour change, you need tools such as the
-Open Science Framework which allows researchers to register their studies, share materials, data and output at any point
-to accelerate communication regardless of publication status.
-
-But for this to be effective the user experience needs to be low friction to encourage adoption and many
-popular services integrate with each other and strive to make their tools accessible.
-
-From the top of the pyramid is policy, which derives from funders and institutions, and defines what you have to do
-within the system to gain recognition which in turn defines the incentives that reward participants for participating in
-the system.
-
-Whilst individuals can always go about changing their own behaviour, this can be challenging when the culture is
-to maintain the status quo, not all colleagues are keen to change their working practices. But an effective way of
-supporting and nurturing individuals who are seeking to change is via a supportive community as seeing others
-using open research practices normalises the behavioural changes, provides support and demonstrates that open research is
-possible.
-
-Thus communities normalise behaviour and serve to accelerate the adoption of change, in this case Open Research
-practices, and importantly can feed up the pyramid to the top to influence and shape policy as practices and guidelines
-develop and mature over time.
-:::
 
 
 ## Community Engagement - Existing Activities
@@ -207,14 +238,22 @@ develop and mature over time.
 + [Unleash your Data](https://www.sheffield.ac.uk/library/research-data-management/unleash-your-data-2023-24)
 + ORWG Drop In-Sessions
 + RSE Code Clinics
+[![OpenFest](https://osc-international.com/wp-content/uploads/2023/07/OpenFest.jpg)](https://osc-international.com/mc-events/openfest2024/?mc_id=73)
 :::
 ::::
 
 :::{.notes}
-Various events are already organised that help bring people together to talk about and share ideas around Open Research
+So what has changed since starting OSC Sheffiled?
+
+Well I'm quite fortuante in that there is already a strong shift towards Open Research here at Sheffield and there are
+already various events organised that help bring people together to talk about and share ideas around Open Research
 practices.
 
-There are the Open Research Conversations, the RSE team have run regular Lunchbyte sessions which cover technical
+There are the Open Research Conversations which are monthly seminars organised by my colleague Jenni to discuss
+different topics around Open Research, publishing, data access and so forth. Jenni also organises the successful
+OpenFest which is returning for its third season in eptember
+
+, the RSE team have run regular Lunchbyte sessions which cover technical
 aspects of conducting research using programming tools and making software FAIR.
 
 Last year saw the return of the successful Sheffield OpenFest which showcased and championed Open Research
@@ -247,16 +286,16 @@ first in the series was __How to Share Survey Data_.
 
 :::{.notes}
 With the support of my colleagues we have re-launched the Sheffield R User group and had regularish monthly meetings
-since October 2023. These are events where people present their work with using the [R](https://www.r-project.org/)
+since October 2023. These are events where people present their work using the [R](https://www.r-project.org/)
 statistical programming language which I like as I'm quite a practical person who likes helping people solve their
 problems with code.
 
-With Jim Uttley and Zuzanna Zagrodzka's who ran it previously we are also re-launching the
+With Jim Uttley and Zuzanna Zagrodzka's who ran it previously we have also re-launched the
 [ReproducibiliTea](https://reproducibilitea.org/) Journal Club which aims to discuss diverse issues, papers and ideas
-about improving science, reproducibility and the Open Science movement and the first of those is scheduled for next week
-following the next Open Research Conversation. We'll be meeting in the Diamond next week to discuss a paper on
-reproducibility in the psychological sciences and if you follow the links you can find out more about paper that will be
-presented and how to attend either in person or online.
+about improving science, reproducibility and the Open Science movement and these have seen moderate attendance since
+they started in January this year.
+
+Just as with the Open Research Conversations these are hybrid events and anyone is welcome to attend.
 :::
 
 
@@ -269,6 +308,8 @@ presented and how to attend either in person or online.
 
 + Annual meeting
 + Help with Incubator
++ Open Research Conversation
++ OSC Sussex
 + Talking here!
 
 :::
@@ -277,12 +318,58 @@ presented and how to attend either in person or online.
 ### Challenges
 
 + Engagement (locally)
-+ Engagement (other OSCs)
++ Engagement (other OSCs in UK)
++ Measuring "Success"
 + Time
+
 
 :::
 ::::
 
 :::{.notes}
-Some notes
+As well as resurrecting SheffieldR and ReproducibiliTea Journal Club since establishing OSC Sheffield I've had some
+involvement with the wider OSC community. The OSC International has an annual meeting which as representative I attended
+which is primarily concerned with governance of the OSC.
+
+I helped out with this years Incubator Programme and attended the session where existing representatives or members
+spoke with the current in take and prior to that Sam Nesbit from the University of Sussex had reached out to myself and
+Jenni to have a chat in much the same way as Ben has invited me here today to talk about my experience so far.
+
+I also thought it might be worth mentioning some of the challenges I think there are.
+
+The first and perhaps biggest challenge I've found has been local engagement, there are a a bunch of people
+in Sheffield who are interested and motivated to see open research and reproducibility be adopted more widely but they
+are already engaged in doing so themselves (the early adopters and early majority) and its the people who are aren't
+already aware of the movement and the late majority and laggards who are really the ones I think would benefit from
+seeing the practices and behaviours normalised but that takes time.
+
+Beyond Sheffield there is the challenge of banding together with other OSCs within the UK to form a wider national
+network and perhaps concerns with how OSC compares and fits in with the UK Research Network but I think there is space
+for both as they have common goals but from different angles, with UKRN promoting training and disseminating best
+practices and understand what factors promote reproducibility and replicability. Communities compliment these efforts
+and should provide local support for when people come across problems that weren't covered in training or are unique to
+a persons problem.
+
+From a personal perspective, whilst the University of Sheffield has been supportive of the idea of OSC Sheffield they
+haven't afforded me any work time allocation to cover the time I spend on it so the tasks of coordinating SheffieldR and
+Reproducibilitea and so forth are an adjunct to my main duties and responsibilities, but as I said at the outset I'm
+passionate about open and reproducible research so I don't mind.
+
+:::
+
+
+## Thank you...
+
++ Anita Eerland and Loek Brinkman (OSC Incubator Programme)
++ Jenni Addams (Open Research Manager, University of Sheffield Library)
++ Jim Uttley (Open Research Working Group Lead)
++ Zuzanna Zagrodzka (PhD Student in Open Research)
++ Grace Accad (Data Science Services, SheffieldR Co-organiser)
+
+
+::: {.notes}
+And that brings to an end my short presentation, and whilst none of them are here I'd like to thank Anita and Loek who
+established OSC Utrecht and Netherlands and some of my colleagues at the University of Sheffield who have been
+supportive and helped with organising many of the activities.
+
 :::
